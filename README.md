@@ -14,4 +14,4 @@ The PDF explains how:
 - Coefficients were generated in Python using SciPy’s `butter(..., output='sos')`.  
 - Each SOS row corresponds to one biquad stage, implemented in hardware using the Direct Form II transposed structure.
 
-  - **[Results from the Filtering Process]()**
+  - **[Results from the Filtering Process](Results)**
