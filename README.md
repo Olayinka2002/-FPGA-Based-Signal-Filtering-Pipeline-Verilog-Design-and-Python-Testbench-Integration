@@ -12,4 +12,6 @@ This project implements a bandpass Butterworth filter for audio signals in the h
 The PDF explains how:
 - The bandpass filter was derived from a lowpass prototype, resulting in a 4th-order design (two biquads in cascade).  
 - Coefficients were generated in Python using SciPy’s `butter(..., output='sos')`.  
-- Each SOS row corresponds to one biquad stage, implemented in hardware using the Direct Form II transposed structure.  
+- Each SOS row corresponds to one biquad stage, implemented in hardware using the Direct Form II transposed structure.
+
+  - **[Results from the Filtering Process]()**
