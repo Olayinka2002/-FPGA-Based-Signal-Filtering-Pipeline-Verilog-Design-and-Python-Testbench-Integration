@@ -36,4 +36,6 @@ The PDF explains how:
          - The output of the sample.v are fed into iir_filter.v and then a final filtered hex file is generated.
          - This file is called F_caputured_signal_t.txt. The file can be found inside the sim folder of the Top folder.
          - This final file is then passed into python fft function to generate the output waveform for the filtered, original and frequency spectrum signals.
-           
+
+  <img width="511" height="288" alt="image" src="https://github.com/user-attachments/assets/a5b03349-d729-47cf-b409-0cfba2cce5db" />
+
