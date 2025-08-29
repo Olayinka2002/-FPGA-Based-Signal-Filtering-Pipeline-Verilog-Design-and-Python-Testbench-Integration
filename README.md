@@ -15,4 +15,4 @@ The PDF explains how:
 - Each SOS row corresponds to one biquad stage, implemented in hardware using the Direct Form II transposed structure.
 - The algorithm was implemented in verilog by cascading the difference equation derived from the direct from II form **[Filter_Design](Source/src/simple_IIR_Filter.v)**
 
-  - **[Results from the Filtering Process](Results)**
+- The initial signal generated in python along with the filtered signal after **[Results from the Filtering Process](Results)**
