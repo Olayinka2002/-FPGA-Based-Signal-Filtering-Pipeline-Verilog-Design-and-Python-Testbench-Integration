@@ -8,7 +8,7 @@ Implementation of a digital **Butterworth bandpass** filter with Python tooling 
 
 This project implements a bandpass Butterworth filter for human voice (300 Hz – 3.4 kHz).
 
-- **[Filter Specifications (PDF)](docs/Filter_Specifications_Updated.pdf)**  
+- **[Filter Specifications (PDF)](Filter_Specifications_Updated.pdf)**  
   Contains detailed filter requirements, floating-point & Q1.15 coefficients, and the Direct Form II structure used in the Verilog implementation.  
 
 The document explains:
