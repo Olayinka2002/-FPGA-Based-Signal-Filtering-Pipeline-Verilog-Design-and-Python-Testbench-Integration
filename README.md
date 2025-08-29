@@ -6,7 +6,7 @@ Implementation of digital filters with Python – includes data capture, analysi
 
 This project implements a bandpass Butterworth filter for audio signals in the human voice range (300 Hz – 3.4 kHz).  
 
-- **[Filter Specifications (PDF)]**  
+- **[Filter Specifications (PDF)](Filter_Specifications_Updated)**  
   Contains detailed filter requirements, Butterworth coefficients (floating-point and Q1.15 fixed-point), and the Direct Form II structure diagram used for the Verilog implementation.  
 
 The PDF explains how:
