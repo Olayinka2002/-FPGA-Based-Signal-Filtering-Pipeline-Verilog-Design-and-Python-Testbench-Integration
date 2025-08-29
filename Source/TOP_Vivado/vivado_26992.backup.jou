@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May  5 13:01:22 2025
+# Process ID         : 26992
+# Current directory  : C:/Users/Olayi/ECE_526_Design_Filter/TOP
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25428 C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.xpr
+# Log file           : C:/Users/Olayi/ECE_526_Design_Filter/TOP/vivado.log
+# Journal file       : C:/Users/Olayi/ECE_526_Design_Filter/TOP\vivado.jou
+# Running On         : Qboy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) 7 150U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16876 MB
+# Swap memory        : 14645 MB
+# Total Virtual      : 31521 MB
+# Available Virtual  : 5000 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_project C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.xpr
+update_compile_order -fileset sources_1
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_simple_IIR_Filter.tcl
+current_project Sampling
+launch_simulation
+open_wave_config C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg
+source Sample_tb.tcl
+current_project TOP
+launch_simulation

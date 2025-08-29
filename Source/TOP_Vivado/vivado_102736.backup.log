@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Jun 17 01:47:38 2025
+# Process ID         : 102736
+# Current directory  : C:/Users/Olayi/CSUN/ECE_526_Design_Filter/TOP
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent95856 C:\Users\Olayi\CSUN\ECE_526_Design_Filter\TOP\TOP.xpr
+# Log file           : C:/Users/Olayi/CSUN/ECE_526_Design_Filter/TOP/vivado.log
+# Journal file       : C:/Users/Olayi/CSUN/ECE_526_Design_Filter/TOP\vivado.jou
+# Running On         : Qboy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) 7 150U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16876 MB
+# Swap memory        : 32120 MB
+# Total Virtual      : 48997 MB
+# Available Virtual  : 856 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Olayi/CSUN/ECE_526_Design_Filter/TOP/TOP.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/Olayi/ECE_526_Design_Filter/TOP' since last save.
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/Olayi/CSUN/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store'; using path 'C:/Users/Olayi/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store' instead.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/CSUN/ECE_526_Design_Filter/TOP/TOP.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Olayi/CSUN/ECE_526_Design_Filter/test_signal.mem', nor could it be found using path 'C:/Users/Olayi/ECE_526_Design_Filter/test_signal.mem'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:45 ; elapsed = 00:00:23 . Memory (MB): peak = 1584.566 ; gain = 373.902
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 17 02:53:04 2025...

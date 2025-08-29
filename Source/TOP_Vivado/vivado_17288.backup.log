@@ -1,0 +1,4872 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May  5 13:11:29 2025
+# Process ID         : 17288
+# Current directory  : C:/Users/Olayi/ECE_526_Design_Filter/TOP
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent6076 C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.xpr
+# Log file           : C:/Users/Olayi/ECE_526_Design_Filter/TOP/vivado.log
+# Journal file       : C:/Users/Olayi/ECE_526_Design_Filter/TOP\vivado.jou
+# Running On         : Qboy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) 7 150U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16876 MB
+# Swap memory        : 11811 MB
+# Total Virtual      : 28688 MB
+# Available Virtual  : 21475 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:00:27 . Memory (MB): peak = 1583.660 ; gain = 392.578
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1607.914 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1634.203 ; gain = 26.289
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+update_compile_order -fileset sources_1
+current_project TOP
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1663.789 ; gain = 2.449
+current_project IIR_Filter
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_simple_IIR_Filter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_simple_IIR_Filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_simple_IIR_Filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_simple_IIR_Filter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.tb_simple_IIR_Filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_simple_IIR_Filter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_simple_IIR_Filter_behav -key {Behavioral:sim_1:Functional:tb_simple_IIR_Filter} -tclbatch {tb_simple_IIR_Filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_simple_IIR_Filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$stop called at time : 58 us : File "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" Line 45
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_simple_IIR_Filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1673.000 ; gain = 3.320
+current_project TOP
+current_sim simulation_2
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/simulate.log"
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sim_1\new\IIR_Filter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+current_project IIR_Filter
+current_project TOP
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/simulate.log"
+current_project IIR_Filter
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1673.602 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1673.602 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1674.801 ; gain = 1.199
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_simple_IIR_Filter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_simple_IIR_Filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_simple_IIR_Filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_simple_IIR_Filter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.tb_simple_IIR_Filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_simple_IIR_Filter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_simple_IIR_Filter_behav -key {Behavioral:sim_1:Functional:tb_simple_IIR_Filter} -tclbatch {tb_simple_IIR_Filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_simple_IIR_Filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 58 us : File "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" Line 45
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_simple_IIR_Filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1678.441 ; gain = 3.641
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem
+WARNING: [filemgmt 56-12] File 'C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem' cannot be added to the project because it already exists in the project, skipping this file
+export_ip_user_files -of_objects  [get_files C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem
+set_property file_type {Memory Initialization Files} [get_files  C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Sample_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Sample_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Sample_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sim_1/new/Sample_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sample_tb_behav xil_defaultlib.Sample_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sample_tb_behav xil_defaultlib.Sample_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.Sample_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Sample_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Sample_tb_behav -key {Behavioral:sim_1:Functional:Sample_tb} -tclbatch {Sample_tb.tcl} -view {C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg
+source Sample_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 150ms
+S File opened successfully.
+0000
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+8166
+f9ea
+7277
+45d7
+4b99
+2efb
+1f4c
+098f
+ff29
+f5d7
+f46e
+fee5
+034e
+0938
+f500
+f174
+ab0f
+0000
+54f1
+0e8c
+0b00
+f6c8
+fcb2
+011b
+0b92
+0a29
+00d7
+f671
+e0b4
+d105
+b467
+ba29
+8d89
+0616
+7e9a
+51dd
+5770
+3a8f
+2a8b
+1468
+098a
+ffb0
+fdb0
+0780
+0b36
+1060
+fb5c
+f6fb
+afb7
+03c3
+57c9
+1073
+0bf4
+f6c8
+fbbd
+ff34
+08bb
+0666
+fc2e
+f0ea
+da58
+c9dd
+ac7f
+b18e
+8447
+fc3d
+7439
+4704
+4c30
+2efb
+1eb5
+0862
+fd68
+f383
+f18d
+fb7a
+ff60
+04cc
+f01d
+ec23
+a556
+f9ea
+4e87
+07d7
+040d
+efa0
+f561
+f9ad
+0412
+02a3
+f957
+ef03
+d963
+c9dd
+ad73
+b375
+871f
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+8166
+f9ea
+7277
+45d7
+4b99
+2efb
+1f4c
+098f
+ff29
+f5d7
+f46e
+fee5
+034e
+0938
+f500
+f174
+ab0f
+0000
+54f1
+0e8c
+0b00
+f6c8
+fcb2
+011b
+0b92
+0a29
+00d7
+f671
+e0b4
+d105
+b467
+ba29
+8d89
+0616
+7e9a
+51dd
+5770
+3a8f
+2a8b
+1468
+098a
+ffb0
+fdb0
+0780
+0b36
+1060
+fb5c
+f6fb
+afb7
+03c3
+57c9
+1073
+0bf4
+f6c8
+fbbd
+ff34
+08bb
+0666
+fc2e
+f0ea
+da58
+c9dd
+ac7f
+b18e
+8447
+fc3d
+7439
+4704
+4c30
+2efb
+1eb5
+0862
+fd68
+f383
+f18d
+fb7a
+ff60
+04cc
+f01d
+ec23
+a556
+f9ea
+4e87
+07d7
+040d
+efa0
+f561
+f9ad
+0412
+02a3
+f957
+ef03
+d963
+c9dd
+ad73
+b375
+871f
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+8166
+f9ea
+7277
+45d7
+4b99
+2efb
+1f4c
+098f
+ff29
+f5d7
+f46e
+fee5
+034e
+0938
+f500
+f174
+ab0f
+0000
+54f1
+0e8c
+0b00
+f6c8
+fcb2
+011b
+0b92
+0a29
+00d7
+f671
+e0b4
+d105
+b467
+ba29
+8d89
+0616
+7e9a
+51dd
+5770
+3a8f
+2a8b
+1468
+098a
+ffb0
+fdb0
+0780
+0b36
+1060
+fb5c
+f6fb
+afb7
+03c3
+57c9
+1073
+0bf4
+f6c8
+fbbd
+ff34
+08bb
+0666
+fc2e
+f0ea
+da58
+c9dd
+ac7f
+b18e
+8447
+fc3d
+7439
+4704
+4c30
+2efb
+1eb5
+0862
+fd68
+f383
+f18d
+fb7a
+ff60
+04cc
+f01d
+ec23
+a556
+f9ea
+4e87
+07d7
+040d
+efa0
+f561
+f9ad
+0412
+02a3
+f957
+ef03
+d963
+c9dd
+ad73
+b375
+871f
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+8166
+f9ea
+7277
+45d7
+4b99
+2efb
+1f4c
+098f
+ff29
+f5d7
+f46e
+fee5
+034e
+0938
+f500
+f174
+ab0f
+0000
+54f1
+0e8c
+0b00
+f6c8
+fcb2
+011b
+0b92
+0a29
+00d7
+f671
+e0b4
+d105
+b467
+ba29
+8d89
+0616
+7e9a
+51dd
+5770
+3a8f
+2a8b
+1468
+098a
+ffb0
+fdb0
+0780
+0b36
+1060
+fb5c
+f6fb
+afb7
+03c3
+57c9
+1073
+0bf4
+f6c8
+fbbd
+ff34
+08bb
+0666
+fc2e
+f0ea
+da58
+c9dd
+ac7f
+b18e
+8447
+fc3d
+7439
+4704
+4c30
+2efb
+1eb5
+0862
+fd68
+f383
+f18d
+fb7a
+ff60
+04cc
+f01d
+ec23
+a556
+f9ea
+4e87
+07d7
+040d
+efa0
+f561
+f9ad
+0412
+02a3
+f957
+ef03
+d963
+c9dd
+ad73
+b375
+871f
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+8166
+f9ea
+7277
+45d7
+4b99
+2efb
+1f4c
+098f
+ff29
+f5d7
+f46e
+fee5
+034e
+0938
+f500
+f174
+ab0f
+0000
+54f1
+0e8c
+0b00
+f6c8
+fcb2
+011b
+0b92
+0a29
+00d7
+f671
+e0b4
+d105
+b467
+ba29
+8d89
+0616
+7e9a
+51dd
+5770
+3a8f
+2a8b
+1468
+098a
+ffb0
+fdb0
+0780
+0b36
+1060
+fb5c
+f6fb
+afb7
+03c3
+57c9
+1073
+0bf4
+f6c8
+fbbd
+ff34
+08bb
+0666
+fc2e
+f0ea
+da58
+c9dd
+ac7f
+b18e
+8447
+fc3d
+7439
+4704
+4c30
+2efb
+1eb5
+0862
+fd68
+f383
+f18d
+fb7a
+ff60
+04cc
+f01d
+ec23
+a556
+f9ea
+4e87
+07d7
+040d
+efa0
+f561
+f9ad
+0412
+02a3
+f957
+ef03
+d963
+c9dd
+ad73
+b375
+871f
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+8166
+f9ea
+7277
+45d7
+4b99
+2efb
+1f4c
+098f
+ff29
+f5d7
+f46e
+fee5
+034e
+0938
+f500
+f174
+ab0f
+0000
+54f1
+0e8c
+0b00
+f6c8
+fcb2
+011b
+0b92
+0a29
+00d7
+f671
+e0b4
+d105
+b467
+ba29
+8d89
+0616
+7e9a
+51dd
+5770
+3a8f
+2a8b
+1468
+098a
+ffb0
+fdb0
+0780
+0b36
+1060
+fb5c
+f6fb
+afb7
+03c3
+57c9
+1073
+0bf4
+f6c8
+fbbd
+ff34
+08bb
+0666
+fc2e
+f0ea
+da58
+c9dd
+ac7f
+b18e
+8447
+fc3d
+7439
+4704
+4c30
+2efb
+1eb5
+0862
+fd68
+f383
+f18d
+fb7a
+ff60
+04cc
+f01d
+ec23
+a556
+f9ea
+4e87
+07d7
+040d
+efa0
+f561
+f9ad
+0412
+02a3
+f957
+ef03
+d963
+c9dd
+ad73
+b375
+871f
+0000
+78e1
+4c8b
+528d
+3623
+269d
+10fd
+06a9
+fd5d
+fbee
+0653
+0a9f
+1060
+fbf3
+f829
+b179
+0616
+5aaa
+13dd
+0fe3
+fb34
+00a0
+0486
+0e73
+0c7d
+0298
+f79e
+e14b
+d105
+b3d0
+b8fc
+8bc7
+03c3
+7bb9
+4e72
+5381
+3623
+25a8
+0f16
+03d2
+f99a
+f745
+00cc
+0443
+0938
+f40c
+ef8d
+a837
+fc3d
+5049
+0905
+04a4
+efa0
+f4ca
+f880
+0250
+0050
+f676
+eb98
+d575
+c571
+a890
+ae23
+$finish called at time : 128447500 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sim_1/new/Sample_tb.v" Line 69
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Sample_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 150ms
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2757.277 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2757.277 ; gain = 0.000
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_simple_IIR_Filter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_simple_IIR_Filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_simple_IIR_Filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_simple_IIR_Filter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.tb_simple_IIR_Filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_simple_IIR_Filter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_simple_IIR_Filter_behav -key {Behavioral:sim_1:Functional:tb_simple_IIR_Filter} -tclbatch {tb_simple_IIR_Filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_simple_IIR_Filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 58 us : File "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" Line 45
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_simple_IIR_Filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2757.277 ; gain = 0.000
+current_project TOP
+current_sim simulation_9
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/simulate.log"
+current_project IIR_Filter
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2763.199 ; gain = 5.922
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2763.199 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 2763.199 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 37400 KB (Peak: 37400 KB), Simulation CPU Usage: 29718 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 2763.199 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 2763.199 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+open_project C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property file_type {Memory Initialization Files} [get_files  C:/Users/Olayi/ECE_526_Design_Filter/test_signal_t.mem]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Sample_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Sample_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Sample_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sources_1/new/Sample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sim_1/new/Sample_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sample_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sample_tb_behav xil_defaultlib.Sample_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sample_tb_behav xil_defaultlib.Sample_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sample
+Compiling module xil_defaultlib.Sample_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Sample_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Sample_tb_behav -key {Behavioral:sim_1:Functional:Sample_tb} -tclbatch {Sample_tb.tcl} -view {C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg
+source Sample_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 150ms
+S File opened successfully.
+0000
+0000
+7fff
+41fb
+7fff
+20e2
+7fff
+f0fc
+7fff
+d2ed
+7fff
+d285
+7fff
+d54a
+542a
+b8fd
+bac7
+c6f9
+26fe
+d976
+a9ef
+ca06
+8fed
+e031
+a7e5
+f704
+cab0
+f0e2
+ddbf
+d68c
+f175
+c61f
+f59b
+1240
+7fff
+574c
+7fff
+32ae
+7fff
+fa09
+49b2
+cfe8
+1100
+c230
+ed2d
+b84a
+c758
+9167
+8000
+97c2
+3876
+a5db
+1412
+9520
+40c1
+acb7
+7e83
+c747
+7fff
+c6f2
+7fff
+b472
+49be
+ae0f
+ed90
+06a6
+7fff
+5aa8
+2471
+473c
+b5d3
+2145
+8000
+0a08
+8000
+0db7
+8000
+11d0
+8549
+f3ba
+8000
+fc59
+7bb4
+059d
+74d7
+e95b
+7fff
+f023
+7fff
+f6e2
+7fff
+e28c
+4f38
+becf
+e255
+ac8a
+8000
+006d
+18f9
+57a4
+bade
+4edf
+8000
+3966
+8000
+3609
+8000
+4e0a
+b90d
+6401
+e4b0
+52dd
+c08b
+61d8
+7fff
+6a36
+3599
+461e
+12c4
+3f4b
+f1f4
+3463
+bbbf
+0c4f
+8000
+d497
+8000
+af9d
+8000
+f313
+0e8c
+3cad
+0fda
+2939
+207e
+0be7
+30ca
+035b
+51a0
+18c4
+68c7
+2ec4
+4f41
+206f
+d3e3
+351d
+42b2
+45fb
+ac5a
+2cbf
+8000
+3239
+8000
+33af
+8000
+1652
+8000
+e5d2
+8000
+c2f0
+8000
+0242
+7fff
+412e
+7fff
+1d2a
+7fff
+eb02
+7fff
+cbc0
+7fff
+cb6b
+7fff
+cf85
+4f77
+b592
+b8cb
+c684
+2814
+dc0b
+ade6
+cf30
+9610
+e706
+af1e
+fe4e
+d1b8
+f757
+e357
+db06
+f49f
+c7d4
+f5c7
+10e2
+7fff
+5319
+7fff
+2c65
+7fff
+f2c6
+426e
+c8f6
+0aaf
+bcc9
+e8ee
+b563
+c5ec
+9185
+8000
+9ade
+3ce4
+ab69
+1a80
+9c23
+480a
+b3f2
+7fff
+cd72
+7fff
+caf4
+7fff
+b596
+4957
+ac22
+ea32
+01fe
+7fff
+5419
+1d5a
+3fef
+aea3
+1a85
+8000
+0508
+8000
+0b59
+8000
+1280
+877c
+f759
+8207
+0242
+7fff
+0cc4
+7c25
+f07c
+7fff
+f5fb
+7fff
+fa67
+7fff
+e31f
+4e3f
+bc55
+de77
+a775
+8000
+f9a2
+11c4
+5058
+b3cf
+485d
+8000
+34d5
+8000
+3438
+8000
+4f4c
+bbcb
+681c
+e9f9
+5917
+c76f
+6917
+7fff
+7131
+3bf8
+4b99
+171b
+424c
+f37e
+3463
+ba35
+094e
+8000
+cf1d
+8000
+a8a2
+8000
+ebd4
+07a8
+3672
+0a92
+251e
+1dc0
+0aa6
+3114
+052c
+54e3
+1d55
+6e72
+3546
+5650
+27bb
+db17
+3be8
+48c5
+4b11
+b038
+2f39
+8000
+31a6
+8000
+302b
+8000
+107a
+8000
+deb1
+8000
+bbc9
+8000
+fc59
+7fff
+3d8f
+7fff
+1c7a
+7fff
+ed60
+7fff
+d0c0
+7fff
+d22b
+7fff
+d6d2
+568d
+bc21
+be87
+cb2c
+2b72
+ddf8
+ae4c
+ce0b
+936e
+e303
+a9ea
+f824
+cade
+f01c
+dc0d
+d402
+ee31
+c246
+f159
+0dc6
+7fff
+52fb
+7fff
+2f4b
+7fff
+f82d
+48bf
+cfe8
+11f3
+c40c
+efdb
+bbad
+cb49
+95b8
+8000
+9c3c
+3cb8
+a9b4
+1757
+97a9
+4273
+ad7e
+7e56
+c628
+7fff
+c41f
+7fff
+b06c
+4561
+a98d
+e91c
+0274
+7fff
+5784
+220d
+45b5
+b539
+21a0
+8000
+0c35
+8000
+1153
+8000
+1638
+89cc
+f826
+8149
+0000
+7eb7
+07da
+7634
+e9c8
+7fff
+eead
+7fff
+f3cb
+7fff
+de60
+4ac7
+ba4b
+ddf3
+a87c
+8000
+fd8c
+16e4
+5673
+ba9f
+4f94
+8000
+3be1
+8000
+39d8
+81aa
+5282
+bd8d
+6857
+e8a9
+564c
+c348
+63c4
+7fff
+6a48
+34b7
+4453
+1025
+3bf4
+ee0d
+3018
+b741
+07d3
+8000
+d0b5
+8000
+ad05
+8000
+f23a
+0ea7
+3dba
+11cf
+2bfe
+23f3
+0fe4
+3522
+07dc
+5616
+1cfd
+6c92
+31f5
+51b4
+2208
+d48e
+34d4
+4179
+43df
+a973
+292e
+8000
+2dd5
+8000
+2f40
+8000
+12a0
+8000
+e386
+8000
+c271
+8000
+03a7
+7fff
+4437
+7fff
+214f
+7fff
+ef86
+7fff
+cfd5
+7fff
+ce5a
+7fff
+d0c7
+4fc8
+b4ef
+b73b
+c418
+24e9
+d845
+a9b0
+caba
+918e
+e2ab
+ab1d
+fad4
+ceec
+f55a
+e240
+dae2
+f56e
+c98e
+f858
+142c
+7fff
+575e
+7fff
+30e3
+7fff
+f6b2
+45cb
+cb9d
+0c82
+bdb4
+e8e5
+b467
+c408
+8ecf
+8000
+96e9
+3891
+a6e9
+1607
+97e4
+4435
+b0b4
+7fff
+cbc8
+7fff
+cb2b
+7fff
+b7a3
+4c31
+afa8
+ee3c
+065e
+7fff
+588b
+2189
+43ab
+b1c1
+1ce1
+8000
+0599
+8000
+0a05
+8000
+0f84
+83db
+f33c
+8000
+fdbe
+7df9
+08a7
+7884
+ed80
+7fff
+f4a7
+7fff
+faf8
+7fff
+e57b
+515d
+c011
+e2a6
+abe7
+8000
+fe02
+15ce
+53de
+b6a9
+4a6a
+8000
+350c
+8000
+328e
+8000
+4c0e
+b7f6
+63dd
+e580
+5497
+c31c
+6522
+7fff
+6e7b
+3a14
+4a9d
+1712
+4337
+f551
+370a
+bd92
+0d3a
+8000
+d39b
+8000
+ace7
+8000
+ef1e
+0a39
+382c
+0b61
+24fa
+1ca9
+08a9
+2e48
+01b2
+50e2
+18fa
+69f0
+30d0
+521a
+23f5
+d7ec
+397c
+4735
+4a6e
+b089
+307b
+8000
+3495
+8000
+3440
+8000
+14fe
+8000
+e2d6
+8000
+bed2
+8000
+fdbe
+7fff
+3d10
+7fff
+1a2e
+7fff
+e9ae
+7fff
+cc51
+7fff
+cdc7
+7fff
+d341
+53a6
+ba05
+bd4e
+cae3
+2c1d
+df91
+b0bf
+d13c
+9739
+e73c
+ae60
+fca5
+cf36
+f419
+df82
+d6c7
+f026
+c353
+f174
+0ced
+7fff
+5063
+7fff
+2b69
+7fff
+f3b1
+4441
+cb9d
+0e0c
+c0b5
+ed3c
+b9e2
+ca67
+95ca
+8000
+9e28
+3f75
+ad23
+1b50
+9bff
+46f3
+b1f6
+7fff
+c9f7
+7fff
+c69a
+7fff
+b121
+4522
+a85c
+e707
+ff93
+7fff
+5376
+1dab
+4131
+b0c8
+1d74
+8000
+091e
+8000
+0fdd
+8000
+16a5
+8b29
+fa63
+844c
+03a7
+7fff
+0c46
+7ab7
+ee30
+7fff
+f249
+7fff
+f5f8
+7fff
+debb
+4a2d
+b8c4
+db8f
+a558
+8000
+f95a
+1270
+51f1
+b642
+4b8e
+8000
+390e
+8000
+38b9
+817d
+5349
+bf3f
+6ae0
+ebee
+5a25
+c78a
+683e
+7fff
+6e99
+38a8
+47b6
+12d3
+3dd0
+ef00
+3018
+b64e
+05f7
+8000
+cd52
+8000
+a8b4
+8000
+edc0
+0a65
+39e1
+0e8b
+2974
+2241
+0f1e
+3550
+08fc
+581b
+1fcf
+7013
+35fa
+5611
+268a
+d902
+3907
+4539
+4703
+abd6
+2ab6
+8000
+2d7b
+8000
+2d13
+8000
+0f04
+8000
+df1e
+8000
+be05
+8000
+0000
+7fff
+41fb
+7fff
+20e2
+7fff
+f0fc
+7fff
+d2ed
+7fff
+d285
+7fff
+d54a
+542a
+b8fd
+bac7
+c6f9
+26fe
+d976
+a9ef
+ca06
+8fed
+e031
+a7e5
+f704
+cab0
+f0e2
+ddbf
+d68c
+f175
+c61f
+f59b
+1240
+7fff
+574c
+7fff
+32ae
+7fff
+fa09
+49b2
+cfe8
+1100
+c230
+ed2d
+b84a
+c758
+9167
+8000
+97c2
+3876
+a5db
+1412
+9520
+40c1
+acb7
+7e83
+c747
+7fff
+c6f2
+7fff
+b472
+49be
+ae0f
+ed90
+06a6
+7fff
+5aa8
+2471
+473c
+b5d3
+2145
+8000
+0a08
+8000
+0db7
+8000
+11d0
+8549
+f3ba
+8000
+fc59
+7bb4
+059d
+74d7
+e95b
+7fff
+f023
+7fff
+f6e2
+7fff
+e28c
+4f38
+becf
+e255
+ac8a
+8000
+006d
+18f9
+57a4
+bade
+4edf
+8000
+3966
+8000
+3609
+8000
+4e0a
+b90d
+6401
+e4b0
+52dd
+c08b
+61d8
+7fff
+6a36
+3599
+461e
+12c4
+3f4b
+f1f4
+3463
+bbbf
+0c4f
+8000
+d497
+8000
+af9d
+8000
+f313
+0e8c
+3cad
+0fda
+2939
+207e
+0be7
+30ca
+035b
+51a0
+18c4
+68c7
+2ec4
+4f41
+206f
+d3e3
+351d
+42b2
+45fb
+ac5a
+2cbf
+8000
+3239
+8000
+33af
+8000
+1652
+8000
+e5d2
+8000
+c2f0
+8000
+0242
+7fff
+412e
+7fff
+1d2a
+7fff
+eb02
+7fff
+cbc0
+7fff
+cb6b
+7fff
+cf85
+4f77
+b592
+b8cb
+c684
+2814
+dc0b
+ade6
+cf30
+9610
+e706
+af1e
+fe4e
+d1b8
+f757
+e357
+db06
+f49f
+c7d4
+f5c7
+10e2
+7fff
+5319
+7fff
+2c65
+7fff
+f2c6
+426e
+c8f6
+0aaf
+bcc9
+e8ee
+b563
+c5ec
+9185
+8000
+9ade
+3ce4
+ab69
+1a80
+9c23
+480a
+b3f2
+7fff
+cd72
+7fff
+caf4
+7fff
+b596
+4957
+ac22
+$finish called at time : 128447500 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sim_1/new/Sample_tb.v" Line 69
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Sample_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 150ms
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 2763.199 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 2763.199 ; gain = 0.000
+open_project C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 2763.199 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Sample_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Sample_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Sample_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sample_tb_behav xil_defaultlib.Sample_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sample_tb_behav xil_defaultlib.Sample_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2763.199 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Sample_tb_behav -key {Behavioral:sim_1:Functional:Sample_tb} -tclbatch {Sample_tb.tcl} -view {C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sample_tb_behav.wcfg
+source Sample_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 150ms
+S File opened successfully.
+0000
+0000
+7fff
+41fb
+7fff
+20e2
+7fff
+f0fc
+7fff
+d2ed
+7fff
+d285
+7fff
+d54a
+542a
+b8fd
+bac7
+c6f9
+26fe
+d976
+a9ef
+ca06
+8fed
+e031
+a7e5
+f704
+cab0
+f0e2
+ddbf
+d68c
+f175
+c61f
+f59b
+1240
+7fff
+574c
+7fff
+32ae
+7fff
+fa09
+49b2
+cfe8
+1100
+c230
+ed2d
+b84a
+c758
+9167
+8000
+97c2
+3876
+a5db
+1412
+9520
+40c1
+acb7
+7e83
+c747
+7fff
+c6f2
+7fff
+b472
+49be
+ae0f
+ed90
+06a6
+7fff
+5aa8
+2471
+473c
+b5d3
+2145
+8000
+0a08
+8000
+0db7
+8000
+11d0
+8549
+f3ba
+8000
+fc59
+7bb4
+059d
+74d7
+e95b
+7fff
+f023
+7fff
+f6e2
+7fff
+e28c
+4f38
+becf
+e255
+ac8a
+8000
+006d
+18f9
+57a4
+bade
+4edf
+8000
+3966
+8000
+3609
+8000
+4e0a
+b90d
+6401
+e4b0
+52dd
+c08b
+61d8
+7fff
+6a36
+3599
+461e
+12c4
+3f4b
+f1f4
+3463
+bbbf
+0c4f
+8000
+d497
+8000
+af9d
+8000
+f313
+0e8c
+3cad
+0fda
+2939
+207e
+0be7
+30ca
+035b
+51a0
+18c4
+68c7
+2ec4
+4f41
+206f
+d3e3
+351d
+42b2
+45fb
+ac5a
+2cbf
+8000
+3239
+8000
+33af
+8000
+1652
+8000
+e5d2
+8000
+c2f0
+8000
+0242
+7fff
+412e
+7fff
+1d2a
+7fff
+eb02
+7fff
+cbc0
+7fff
+cb6b
+7fff
+cf85
+4f77
+b592
+b8cb
+c684
+2814
+dc0b
+ade6
+cf30
+9610
+e706
+af1e
+fe4e
+d1b8
+f757
+e357
+db06
+f49f
+c7d4
+f5c7
+10e2
+7fff
+5319
+7fff
+2c65
+7fff
+f2c6
+426e
+c8f6
+0aaf
+bcc9
+e8ee
+b563
+c5ec
+9185
+8000
+9ade
+3ce4
+ab69
+1a80
+9c23
+480a
+b3f2
+7fff
+cd72
+7fff
+caf4
+7fff
+b596
+4957
+ac22
+ea32
+01fe
+7fff
+5419
+1d5a
+3fef
+aea3
+1a85
+8000
+0508
+8000
+0b59
+8000
+1280
+877c
+f759
+8207
+0242
+7fff
+0cc4
+7c25
+f07c
+7fff
+f5fb
+7fff
+fa67
+7fff
+e31f
+4e3f
+bc55
+de77
+a775
+8000
+f9a2
+11c4
+5058
+b3cf
+485d
+8000
+34d5
+8000
+3438
+8000
+4f4c
+bbcb
+681c
+e9f9
+5917
+c76f
+6917
+7fff
+7131
+3bf8
+4b99
+171b
+424c
+f37e
+3463
+ba35
+094e
+8000
+cf1d
+8000
+a8a2
+8000
+ebd4
+07a8
+3672
+0a92
+251e
+1dc0
+0aa6
+3114
+052c
+54e3
+1d55
+6e72
+3546
+5650
+27bb
+db17
+3be8
+48c5
+4b11
+b038
+2f39
+8000
+31a6
+8000
+302b
+8000
+107a
+8000
+deb1
+8000
+bbc9
+8000
+fc59
+7fff
+3d8f
+7fff
+1c7a
+7fff
+ed60
+7fff
+d0c0
+7fff
+d22b
+7fff
+d6d2
+568d
+bc21
+be87
+cb2c
+2b72
+ddf8
+ae4c
+ce0b
+936e
+e303
+a9ea
+f824
+cade
+f01c
+dc0d
+d402
+ee31
+c246
+f159
+0dc6
+7fff
+52fb
+7fff
+2f4b
+7fff
+f82d
+48bf
+cfe8
+11f3
+c40c
+efdb
+bbad
+cb49
+95b8
+8000
+9c3c
+3cb8
+a9b4
+1757
+97a9
+4273
+ad7e
+7e56
+c628
+7fff
+c41f
+7fff
+b06c
+4561
+a98d
+e91c
+0274
+7fff
+5784
+220d
+45b5
+b539
+21a0
+8000
+0c35
+8000
+1153
+8000
+1638
+89cc
+f826
+8149
+0000
+7eb7
+07da
+7634
+e9c8
+7fff
+eead
+7fff
+f3cb
+7fff
+de60
+4ac7
+ba4b
+ddf3
+a87c
+8000
+fd8c
+16e4
+5673
+ba9f
+4f94
+8000
+3be1
+8000
+39d8
+81aa
+5282
+bd8d
+6857
+e8a9
+564c
+c348
+63c4
+7fff
+6a48
+34b7
+4453
+1025
+3bf4
+ee0d
+3018
+b741
+07d3
+8000
+d0b5
+8000
+ad05
+8000
+f23a
+0ea7
+3dba
+11cf
+2bfe
+23f3
+0fe4
+3522
+07dc
+5616
+1cfd
+6c92
+31f5
+51b4
+2208
+d48e
+34d4
+4179
+43df
+a973
+292e
+8000
+2dd5
+8000
+2f40
+8000
+12a0
+8000
+e386
+8000
+c271
+8000
+03a7
+7fff
+4437
+7fff
+214f
+7fff
+ef86
+7fff
+cfd5
+7fff
+ce5a
+7fff
+d0c7
+4fc8
+b4ef
+b73b
+c418
+24e9
+d845
+a9b0
+caba
+918e
+e2ab
+ab1d
+fad4
+ceec
+f55a
+e240
+dae2
+f56e
+c98e
+f858
+142c
+7fff
+575e
+7fff
+30e3
+7fff
+f6b2
+45cb
+cb9d
+0c82
+bdb4
+e8e5
+b467
+c408
+8ecf
+8000
+96e9
+3891
+a6e9
+1607
+97e4
+4435
+b0b4
+7fff
+cbc8
+7fff
+cb2b
+7fff
+b7a3
+4c31
+afa8
+ee3c
+065e
+7fff
+588b
+2189
+43ab
+b1c1
+1ce1
+8000
+0599
+8000
+0a05
+8000
+0f84
+83db
+f33c
+8000
+fdbe
+7df9
+08a7
+7884
+ed80
+7fff
+f4a7
+7fff
+faf8
+7fff
+e57b
+515d
+c011
+e2a6
+abe7
+8000
+fe02
+15ce
+53de
+b6a9
+4a6a
+8000
+350c
+8000
+328e
+8000
+4c0e
+b7f6
+63dd
+e580
+5497
+c31c
+6522
+7fff
+6e7b
+3a14
+4a9d
+1712
+4337
+f551
+370a
+bd92
+0d3a
+8000
+d39b
+8000
+ace7
+8000
+ef1e
+0a39
+382c
+0b61
+24fa
+1ca9
+08a9
+2e48
+01b2
+50e2
+18fa
+69f0
+30d0
+521a
+23f5
+d7ec
+397c
+4735
+4a6e
+b089
+307b
+8000
+3495
+8000
+3440
+8000
+14fe
+8000
+e2d6
+8000
+bed2
+8000
+fdbe
+7fff
+3d10
+7fff
+1a2e
+7fff
+e9ae
+7fff
+cc51
+7fff
+cdc7
+7fff
+d341
+53a6
+ba05
+bd4e
+cae3
+2c1d
+df91
+b0bf
+d13c
+9739
+e73c
+ae60
+fca5
+cf36
+f419
+df82
+d6c7
+f026
+c353
+f174
+0ced
+7fff
+5063
+7fff
+2b69
+7fff
+f3b1
+4441
+cb9d
+0e0c
+c0b5
+ed3c
+b9e2
+ca67
+95ca
+8000
+9e28
+3f75
+ad23
+1b50
+9bff
+46f3
+b1f6
+7fff
+c9f7
+7fff
+c69a
+7fff
+b121
+4522
+a85c
+e707
+ff93
+7fff
+5376
+1dab
+4131
+b0c8
+1d74
+8000
+091e
+8000
+0fdd
+8000
+16a5
+8b29
+fa63
+844c
+03a7
+7fff
+0c46
+7ab7
+ee30
+7fff
+f249
+7fff
+f5f8
+7fff
+debb
+4a2d
+b8c4
+db8f
+a558
+8000
+f95a
+1270
+51f1
+b642
+4b8e
+8000
+390e
+8000
+38b9
+817d
+5349
+bf3f
+6ae0
+ebee
+5a25
+c78a
+683e
+7fff
+6e99
+38a8
+47b6
+12d3
+3dd0
+ef00
+3018
+b64e
+05f7
+8000
+cd52
+8000
+a8b4
+8000
+edc0
+0a65
+39e1
+0e8b
+2974
+2241
+0f1e
+3550
+08fc
+581b
+1fcf
+7013
+35fa
+5611
+268a
+d902
+3907
+4539
+4703
+abd6
+2ab6
+8000
+2d7b
+8000
+2d13
+8000
+0f04
+8000
+df1e
+8000
+be05
+8000
+0000
+7fff
+41fb
+7fff
+20e2
+7fff
+f0fc
+7fff
+d2ed
+7fff
+d285
+7fff
+d54a
+542a
+b8fd
+bac7
+c6f9
+26fe
+d976
+a9ef
+ca06
+8fed
+e031
+a7e5
+f704
+cab0
+f0e2
+ddbf
+d68c
+f175
+c61f
+f59b
+1240
+7fff
+574c
+7fff
+32ae
+7fff
+fa09
+49b2
+cfe8
+1100
+c230
+ed2d
+b84a
+c758
+9167
+8000
+97c2
+3876
+a5db
+1412
+9520
+40c1
+acb7
+7e83
+c747
+7fff
+c6f2
+7fff
+b472
+49be
+ae0f
+ed90
+06a6
+7fff
+5aa8
+2471
+473c
+b5d3
+2145
+8000
+0a08
+8000
+0db7
+8000
+11d0
+8549
+f3ba
+8000
+fc59
+7bb4
+059d
+74d7
+e95b
+7fff
+f023
+7fff
+f6e2
+7fff
+e28c
+4f38
+becf
+e255
+ac8a
+8000
+006d
+18f9
+57a4
+bade
+4edf
+8000
+3966
+8000
+3609
+8000
+4e0a
+b90d
+6401
+e4b0
+52dd
+c08b
+61d8
+7fff
+6a36
+3599
+461e
+12c4
+3f4b
+f1f4
+3463
+bbbf
+0c4f
+8000
+d497
+8000
+af9d
+8000
+f313
+0e8c
+3cad
+0fda
+2939
+207e
+0be7
+30ca
+035b
+51a0
+18c4
+68c7
+2ec4
+4f41
+206f
+d3e3
+351d
+42b2
+45fb
+ac5a
+2cbf
+8000
+3239
+8000
+33af
+8000
+1652
+8000
+e5d2
+8000
+c2f0
+8000
+0242
+7fff
+412e
+7fff
+1d2a
+7fff
+eb02
+7fff
+cbc0
+7fff
+cb6b
+7fff
+cf85
+4f77
+b592
+b8cb
+c684
+2814
+dc0b
+ade6
+cf30
+9610
+e706
+af1e
+fe4e
+d1b8
+f757
+e357
+db06
+f49f
+c7d4
+f5c7
+10e2
+7fff
+5319
+7fff
+2c65
+7fff
+f2c6
+426e
+c8f6
+0aaf
+bcc9
+e8ee
+b563
+c5ec
+9185
+8000
+9ade
+3ce4
+ab69
+1a80
+9c23
+480a
+b3f2
+7fff
+cd72
+7fff
+caf4
+7fff
+b596
+4957
+ac22
+$finish called at time : 128447500 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/Sampling/Sampling.srcs/sim_1/new/Sample_tb.v" Line 69
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Sample_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 150ms
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 2763.199 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+current_project TOP
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim/test_signal_t.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 10255 ns : File "C:/Users/Olayi/ECE_526_Design_Filter/TOP/TOP.srcs/sim_1/new/top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2763.199 ; gain = 0.000
+current_project IIR_Filter
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_simple_IIR_Filter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_simple_IIR_Filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_simple_IIR_Filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_simple_IIR_Filter
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.tb_simple_IIR_Filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_simple_IIR_Filter_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2763.199 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_simple_IIR_Filter_behav -key {Behavioral:sim_1:Functional:tb_simple_IIR_Filter} -tclbatch {tb_simple_IIR_Filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_simple_IIR_Filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 58 us : File "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" Line 45
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_simple_IIR_Filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 2763.199 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_simple_IIR_Filter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_simple_IIR_Filter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_simple_IIR_Filter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sources_1/new/simple_IIR_Filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_IIR_Filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_simple_IIR_Filter
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/Olayi/.Xilinx/xinstall/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_simple_IIR_Filter_behav xil_defaultlib.tb_simple_IIR_Filter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.simple_IIR_Filter
+Compiling module xil_defaultlib.tb_simple_IIR_Filter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_simple_IIR_Filter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_simple_IIR_Filter_behav -key {Behavioral:sim_1:Functional:tb_simple_IIR_Filter} -tclbatch {tb_simple_IIR_Filter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_simple_IIR_Filter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 200us
+$finish called at time : 58 us : File "C:/Users/Olayi/ECE_526_Design_Filter/IIR_Filter/IIR_Filter.srcs/sim_1/new/IIR_Filter_tb.v" Line 45
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_simple_IIR_Filter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 3038.609 ; gain = 0.000
+current_project TOP
+write_project_tcl -all_properties {C:/Users/Olayi/ECE_526_Design_Filter/TOP.tcl}
+WARNING: [Vivado 12-818] No files matched '*.bd'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+INFO: [Vivado-projutils-8] Tcl script 'TOP.tcl' generated in output directory 'C:/Users/Olayi/ECE_526_Design_Filter'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set with respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source TOP.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\Sampling\Sampling.srcs\sources_1\new\Sample.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\IIR_Filter\IIR_Filter.srcs\sources_1\new\simple_IIR_Filter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Olayi\ECE_526_Design_Filter\TOP\TOP.srcs\sim_1\new\top_tb.v:]
+current_project IIR_Filter
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  8 14:45:25 2025...

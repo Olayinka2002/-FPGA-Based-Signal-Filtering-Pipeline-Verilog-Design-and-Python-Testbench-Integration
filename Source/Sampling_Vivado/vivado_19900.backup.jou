@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Aug 29 09:12:12 2025
+# Process ID         : 19900
+# Current directory  : C:/Users/Olayi/CSUN/ECE_526_Design_Filter/Sampling
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9876 C:\Users\Olayi\CSUN\ECE_526_Design_Filter\Sampling\Sampling.xpr
+# Log file           : C:/Users/Olayi/CSUN/ECE_526_Design_Filter/Sampling/vivado.log
+# Journal file       : C:/Users/Olayi/CSUN/ECE_526_Design_Filter/Sampling\vivado.jou
+# Running On         : Qboy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) 7 150U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16876 MB
+# Swap memory        : 27917 MB
+# Total Virtual      : 44794 MB
+# Available Virtual  : 25842 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Olayi/CSUN/ECE_526_Design_Filter/Sampling/Sampling.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Olayi/CSUN/ECE_526_Design_Filter/test_signal.mem] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Olayi/CSUN/ECE_526_Design_Filter/test_signal.mem
