@@ -13,6 +13,6 @@ The PDF explains how:
 - The bandpass filter was derived from a lowpass prototype, resulting in a 4th-order design (two biquads in cascade).  
 - Coefficients were generated in Python using SciPy’s `butter(..., output='sos')`.  
 - Each SOS row corresponds to one biquad stage, implemented in hardware using the Direct Form II transposed structure.
-- The algorithm was implemented in verilog by cascading the difference equation derived from the direct from II form **()**
+- The algorithm was implemented in verilog by cascading the difference equation derived from the direct from II form **[Filter_Design](Source/src/simple_IIR_Filter.v)**
 
   - **[Results from the Filtering Process](Results)**
